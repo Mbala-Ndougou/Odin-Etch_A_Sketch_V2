@@ -1,3 +1,23 @@
+.big-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 320px;
+}
+
+.box{
+border: solid black 1.4px;
+border-radius: 7px;
+margin-top: 10px;
+}
+
+.up{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+}
+
 .container{
     display: flex;
     width: 320px;
@@ -8,5 +28,5 @@
 }
 
 .grid{
-    background-color: aquamarine;
+    background-color: rgb(243, 243, 243);
 }
